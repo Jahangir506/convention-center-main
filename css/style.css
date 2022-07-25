@@ -68,16 +68,31 @@
   margin: 1.6em auto;
 }
 .margin-2{
-  margin: 1.6em auto;
+  margin: 1em auto;
 }
 .clients{
   margin: 1.6em auto;
 }
+.toasts-controls{
+  position: relative;
+  bottom: 50%;
+  right: -0%;
 }
+.toasts-button{
+  width: 260px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: none;
+  border-left: 5px solid blue;
+}
+}
+
 .carosel-indicators[data-bs-target]{
   width: 70px;
   height: 6px;
 }
+
+
 @media screen and (max-width: 737px) {
   
   .carousel-item{
