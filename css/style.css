@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.margin-1{
+  margin: 100px auto;
+}
+.margin-2{
+  margin: 173px auto;
+}
+/* .margin-3{
+  margin: 148px 159px 198px 0px;
+} */
+.button-color{
+    /* color: #3F87F5; */
+    background-color: #F496D1;
+}
+.button-color-1{
+    color: #3F87F5;
+    background-color: #fff;
+}
+.text-controls{
+  width: 252px;
+  height: 104px;
+}
+.photos-control-1{
+  width: 120px;
+  height: 40px;
+}
+.photos-control-2{
+  width: 135px;
+  height: 55px;
+}
+.toasts-C5{
+  
+}
+.toasts-controls{
+  position: relative;
+  bottom: 30%;
+  right: -80%;
+  margin-left: -50px;
+}
+.toasts-button{
+  width: 260px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: none;
+  border-left: 5px solid blue;
+}
+@media screen and (max-width: 576px) {
+  .responsive-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+  .responsive-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }  
+  .margin-1{
+  margin: 1.6em auto;
+}
+.margin-2{
+  margin: 1.6em auto;
+}
+.clients{
+  margin: 1.6em auto;
+}
+}
+.carosel-indicators[data-bs-target]{
+  width: 70px;
+  height: 6px;
+}
+@media screen and (max-width: 737px) {
+  
+  .carousel-item{
+  height: 100vh;
+ }
+ .carousel-item img{
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+ }
+}
